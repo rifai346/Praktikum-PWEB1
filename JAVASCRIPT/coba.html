@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arithmetic</title>
+    <style>
+        .tengah {
+            text-align: center;
+        }
+        table, tr, td, th {
+            border: 1px solid black;
+            margin: auto;
+            border-collapse: collapse;
+            width: 50vh;
+            text-align: center;
+            transition: ease-out 0.5s;
+        }
+
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        tr:hover {
+            background-color: red;
+        }
+
+        td:hover {
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="tengah">JS Arithmetic</h1>
+    <br>
+    <div class="tengah">
+        <table>
+            <tr>
+                <th style="background-color: gray;">Variabel</th>
+                <th style="background-color: gray;">Nilai</th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td id="a">5</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td id="b">2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td id="c">1</td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <button>Ubah Nilai</button>
+    </div>
+</body>
+</html>
