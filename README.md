@@ -174,6 +174,131 @@ Desain Web Responsif adalah tentang penggunaan HTML dan CSS untuk secara otomati
 
 ![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/6eaa6834-8432-4b75-9d23-ed70fadce378)
 
+## CSS
+
+CSS adalah bahasa yang DIgunakan untuk menata gaya dokumen HTML.
+CSS menjelaskan bagaimana elemen HTML harus ditampilkan.
+
+- CSS SYNTAX
+
+Pemilih menunjuk ke elemen HTML yang ingin Anda gaya.
+Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh titik koma.
+Setiap deklarasi menyertakan nama properti CSS dan nilainya, dipisahkan oleh titik dua.
+Beberapa deklarasi CSS dipisahkan dengan titik koma, dan blok deklarasi diapit oleh kurung kurawal.
+
+```sh
+p {
+  color: red;
+  text-align: center;
+} 
+```
+- CSS SELECTOR
+
+Pemilih CSS digunakan untuk "menemukan" (atau memilih) elemen HTML yang ingin Anda gaya.
+
+Kita dapat membagi pemilih CSS menjadi lima kategori:
+
+Selector sederhana (pilih elemen berdasarkan nama, id, kelas),
+Penyeleksi kombinator (memilih elemen berdasarkan hubungan tertentu di antara elemen tersebut),
+Selector kelas semu (memilih elemen berdasarkan keadaan tertentu),
+Pemilih elemen semu (memilih dan memberi gaya pada bagian elemen),
+Pemilih atribut (memilih elemen berdasarkan atribut atau nilai atribut).
+
+```sh
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+} 
+#para1 {
+  text-align: center;
+  color: red;
+}
+.center {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p class="center">Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>
+```
+
+- CSS COMENT
+
+Komentar digunakan untuk menjelaskan kode, dan mungkin membantu ketika Anda mengedit kode sumber di kemudian hari.
+Komentar diabaikan oleh browser.
+Komentar CSS ditempatkan di dalam `<style>` elemen, dimulai `/*` dan diakhiri dengan `*/`.
+
+``` sh
+/* This is a single-line comment */
+```
+
+- CSS COLORS
+
+Warna ditentukan menggunakan nama warna yang telah ditentukan sebelumnya, atau nilai RGB, HEX, HSL, RGBA, HSLA.
+
+
+- CSS BACKGROUND
+
+Properti latar belakang CSS digunakan untuk menambahkan efek latar belakang pada elemen.
+
+
+- CSS BORDERS
+
+Properti Border CSS memungkinkan Anda menentukan gaya, lebar, dan warna batas elemen.
+
+
+- CSS MARGINS
+
+Margin digunakan untuk menciptakan ruang di sekitar elemen, di luar batas yang ditentukan.
+
+
+- CSS PADDING
+
+Padding digunakan untuk menciptakan ruang di sekitar konten elemen, di dalam batas yang ditentukan.
+
+
+- CSS HEIGHT DAN WIDTH
+
+CSS `height` dan `width` properti digunakan untuk mengatur tinggi dan lebar suatu elemen.
+Properti CSS `max-width` digunakan untuk mengatur lebar maksimum suatu elemen.
+
+
+- CSS BOX MODEL
+
+Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tata letak.
+
+box model CSS pada dasarnya adalah sebuah kotak yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.
+
+
+- CSS OUTLINE
+
+outline adalah garis yang digambar di luar batas elemen.
+
+
+- CSS TEXT
+
+CSS memiliki banyak properti untuk memformat teks.
+
+
+- CSS FONT
+
+Memilih font yang tepat memiliki dampak besar pada pengalaman pembaca terhadap situs web.
+Font yang tepat dapat menciptakan identitas yang kuat untuk brand Anda.
+Menggunakan font yang mudah dibaca itu penting. Font menambah nilai pada teks Anda. Penting juga untuk memilih warna dan ukuran teks yang tepat untuk font.
+
+
+- 
 
 
 
@@ -192,3 +317,5 @@ Desain Web Responsif adalah tentang penggunaan HTML dan CSS untuk secara otomati
 
 
 
+
+[def]: image.png

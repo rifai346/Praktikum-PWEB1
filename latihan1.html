@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin: auto;
+            width: fit-content;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        table{
+            border: 1px solid black;
+        }
+        table th,td{
+            border: 1px solid black;
+        }
+        th{
+            background-color: grey;
+        }
+        table tr:nth-child(even){
+            background-color: lightgray;
+        }
+        table tr:hover{
+            background-color: gray;
+        }
+        img{
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>contoh soal</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <th>variabel</th>
+                <th>nilai</th>
+                <th rowspan="5"><img id="gambar" src="https://www.techfor.id/wp-content/uploads/2019/12/html.png"></th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td id="satu">5</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td id="dua">7</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td id="tiga">2</td>
+            </tr>
+            <tr>
+                <td>hasil</td>
+                <td id="hasil" onmouseover="tampilnilai()" onmouseout="hapusnilai()"></td>
+            </tr>
+        </table>
+        <button id="ubah-nilai" onclick="ubahnilai()">
+            ubah nilai
+        </button>
+    </div>
+    <script>
+        function hitung(a, b, c) {
+            return a + b - c;
+        }
+        function tampilnilai() {
+            let a = parseInt(document.getElementById('satu').innerHTML);
+            let b = parseInt(document.getElementById('dua').innerHTML);
+            let c = parseInt(document.getElementById('tiga').innerHTML);
+            let hasilHitung = hitung(a, b, c);
+
+            document.getElementById("hasil").innerHTML = hasilHitung;
+        }
+        function hapusnilai() {
+            hasil.innerHTML="";
+            
+        }
+        const ubahnilai=()=>{
+            const promptA=prompt("masukkan nilai a");
+            const promptB=prompt("masukkan nilai b");
+            const promptC=prompt("masukkan nilai c");
+
+            document.getElementById("satu").innerHTML = promptA;
+            document.getElementById("dua").innerHTML = promptB;
+            document.getElementById("tiga").innerHTML = promptC;
+
+            tampilnilai();
+            document.getElementById("gambar").src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+        }
+    </script>
+</body>
+</html>
