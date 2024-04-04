@@ -247,32 +247,38 @@ Komentar CSS ditempatkan di dalam `<style>` elemen, dimulai `/*` dan diakhiri de
 
 Warna ditentukan menggunakan nama warna yang telah ditentukan sebelumnya, atau nilai RGB, HEX, HSL, RGBA, HSLA.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/ee56350e-aefa-4fbd-9ffd-89dc9759ea56)
 
 - CSS BACKGROUND
 
 Properti latar belakang CSS digunakan untuk menambahkan efek latar belakang pada elemen.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/e1bf4397-d0aa-42ac-b962-6a25506afb9d)
 
 - CSS BORDERS
 
 Properti Border CSS memungkinkan Anda menentukan gaya, lebar, dan warna batas elemen.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/90384b1e-0328-4fa0-87b4-1c515f518a6f)
 
 - CSS MARGINS
 
 Margin digunakan untuk menciptakan ruang di sekitar elemen, di luar batas yang ditentukan.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/83429022-78e0-4067-906e-02fe3339ac9c)
 
 - CSS PADDING
 
 Padding digunakan untuk menciptakan ruang di sekitar konten elemen, di dalam batas yang ditentukan.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/95d1cc44-1dab-473e-bf47-d06230ce6cb4)
 
 - CSS HEIGHT DAN WIDTH
 
 CSS `height` dan `width` properti digunakan untuk mengatur tinggi dan lebar suatu elemen.
 Properti CSS `max-width` digunakan untuk mengatur lebar maksimum suatu elemen.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/e7077659-0236-4f45-bcca-1d056d10d8d3)
 
 - CSS BOX MODEL
 
@@ -280,16 +286,19 @@ Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tat
 
 box model CSS pada dasarnya adalah sebuah kotak yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/58ee704f-0706-4d4e-94e2-ccff046452ce)
 
 - CSS OUTLINE
 
 outline adalah garis yang digambar di luar batas elemen.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/8bb74dd5-7cd4-45c8-8feb-d34c4e40decf)
 
 - CSS TEXT
 
 CSS memiliki banyak properti untuk memformat teks.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/e2f8f963-c06a-49d7-ad5f-8f3c7f07cc6a)
 
 - CSS FONT
 
@@ -297,11 +306,13 @@ Memilih font yang tepat memiliki dampak besar pada pengalaman pembaca terhadap s
 Font yang tepat dapat menciptakan identitas yang kuat untuk brand Anda.
 Menggunakan font yang mudah dibaca itu penting. Font menambah nilai pada teks Anda. Penting juga untuk memilih warna dan ukuran teks yang tepat untuk font.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/2d0b987f-8a82-4b49-8aa0-4e05886af767)
 
 - CSS LINK
 
 autan dapat ditata dengan properti CSS apa pun (misalnya `color`, `font-family`, `background`, dll.).
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/65b599e6-ed91-491c-997f-528756c04101)
 
 - CSS LIST
 
@@ -315,11 +326,13 @@ Tetapkan penanda item daftar yang berbeda untuk daftar tidak berurutan
 Tetapkan gambar sebagai penanda item daftar
 Tambahkan warna latar belakang ke daftar dan item daftar
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/48712c68-9cd9-44f7-9075-05324b07cb65)
 
 - CSS TABLES
 
 Tampilan tabel HTML dapat ditingkatkan secara signifikan dengan CSS:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/1c94d992-5aff-4875-a010-46007ed4032b)
 
 
 - CSS LAYOUT
@@ -328,12 +341,14 @@ ini `display` adalah properti CSS terpenting untuk mengontrol tata letak. Proper
 Setiap elemen HTML memiliki nilai tampilan default, bergantung pada jenis elemennya. Nilai tampilan default untuk sebagian besar elemen adalah blockatau inline.
 Properti ini displaydigunakan untuk mengubah perilaku tampilan default elemen HTML.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/f9a9ba35-0c7e-43b5-9ba5-0fa0c6261f6a)
 
 - CSS MAX WIDTH
 
 eperti yang telah disebutkan pada bab sebelumnya; elemen tingkat blok selalu menempati lebar penuh yang tersedia (membentang ke kiri dan kanan sejauh mungkin).
 Menyetel `width` elemen tingkat blok akan mencegahnya meregang hingga ke tepi wadahnya. Kemudian, Anda dapat mengatur margin ke otomatis, untuk memusatkan elemen secara horizontal di dalam wadahnya. Elemen akan mengambil lebar yang ditentukan, dan ruang yang tersisa akan dibagi rata antara dua margin:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/32834cb0-b4b3-4b87-bfd4-2fbeb29914b2)
 
 - CSS PROPERTI
 
@@ -344,6 +359,7 @@ Properti ini `position` menentukan jenis metode pemosisian yang digunakan untuk 
 
 Properti z-indexmenentukan urutan tumpukan suatu elemen.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/ca61f998-4457-45aa-8b92-986d3ca38c7e)
 
 ## JAVASCRIPT
 
@@ -358,11 +374,20 @@ Statement JavaScript terdiri dari:
 Nilai, Operator, Ekspresi, Kata Kunci, dan Komentar.
 Statement ini memberitahu browser untuk menulis "Halo Dolly." di dalam elemen HTML dengan `id="demo"`:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/15505de2-0d8f-4880-a808-5b31bf9cae2a)
 
 - JS SYNTAX
 
 Sintaks JavaScript adalah seperangkat aturan, bagaimana program JavaScript dibuat:
 
+>// How to create variables:
+>var x;
+>let y;
+
+>// How to use variables:
+>x = 5;
+>y = 6;
+>let z = x + y;
 
 - JS COMMENT
 
@@ -415,6 +440,7 @@ const z = x + y;
 
 Operator Javascript digunakan untuk melakukan berbagai jenis perhitungan matematis dan logis.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/6e458441-572d-4500-a549-4b1d0d399c74)
 
 - JS ARITMATIK
 
@@ -439,6 +465,7 @@ Fungsi JavaScript dijalankan ketika "sesuatu" memanggilnya (memanggilnya).
 
 Objek JavaScript adalah wadah untuk nilai bernama yang disebut properti.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/4d25eded-1359-4305-b859-ec410454b1c2)
 
 - JS EVENT 
 
@@ -446,6 +473,7 @@ EVENT HTML adalah "hal" yang terjadi pada elemen HTML.
 
 Ketika JavaScript digunakan di halaman HTML, JavaScript dapat "bereaksi" terhadap event ini.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/ab92802d-57ac-4976-8bb8-e65c1b36e64a)
 
 - JS STRING
 
@@ -460,16 +488,19 @@ String ditulis dengan tanda kutip
 
 JavaScript hanya memiliki satu jenis angka. Angka dapat ditulis dengan atau tanpa desimal.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/f5be3990-a932-4322-97ce-858134dee166)
 
 - JS ARRAY
 
 Array adalah variabel khusus yang dapat menampung lebih dari satu nilai:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/7f35b6b2-801b-405c-a84e-a56291907475)
 
 - JS DATE
 
 date javaScript memungkinkan kita bekerja dengan tanggal:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/4b204719-225f-435b-baf3-05348f073e78)
 
 - JS LOOP FOR
 
@@ -477,23 +508,27 @@ Perulangan berguna jika Anda ingin menjalankan kode yang sama berulang kali, set
 
 Seringkali hal ini terjadi ketika bekerja dengan array:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/7e277cac-948e-45c0-937d-411d58af934b)
 
 - JS LOOP FOR IN
 
 Pernyataan JavaScript for inmengulang properti suatu Objek:
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/dfe3c1dd-731c-444a-b823-9ed2e5ab5195)
 
 - JS FUNCTION
 
 Fungsi JavaScript ditentukan dengan `function` kata kunci.
 Anda dapat menggunakan deklarasi fungsi atau ekspresi fungsi.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/8677b828-0bc6-46a2-8fca-eb5f97bb7c04)
 
 - JS EVENLISTENER
 
 Metode ini `addEventListener()` melampirkan event handler ke elemen tertentu.
 Metode ini `addEventListener()` melampirkan event handler ke sebuah elemen tanpa menimpa event handler yang ada.
 
+![image](https://github.com/rifai346/Praktikum-PWEB1/assets/151704215/981f885d-c738-419e-9e60-ea3d25315dbd)
 
 
 
