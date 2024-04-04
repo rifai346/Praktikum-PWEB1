@@ -298,18 +298,201 @@ Font yang tepat dapat menciptakan identitas yang kuat untuk brand Anda.
 Menggunakan font yang mudah dibaca itu penting. Font menambah nilai pada teks Anda. Penting juga untuk memilih warna dan ukuran teks yang tepat untuk font.
 
 
-- 
+- CSS LINK
+
+autan dapat ditata dengan properti CSS apa pun (misalnya `color`, `font-family`, `background`, dll.).
+
+
+- CSS LIST
+
+Dalam HTML, ada dua tipe utama daftar:
+
+daftar tidak berurutan `(<ul>)` - item daftar ditandai dengan poin
+daftar terurut `(<ol>)` - item daftar ditandai dengan angka atau huruf
+Properti daftar CSS memungkinkan Anda untuk:
+Tetapkan penanda item daftar yang berbeda untuk daftar yang dipesan
+Tetapkan penanda item daftar yang berbeda untuk daftar tidak berurutan
+Tetapkan gambar sebagai penanda item daftar
+Tambahkan warna latar belakang ke daftar dan item daftar
+
+
+- CSS TABLES
+
+Tampilan tabel HTML dapat ditingkatkan secara signifikan dengan CSS:
 
 
 
+- CSS LAYOUT
+
+ini `display` adalah properti CSS terpenting untuk mengontrol tata letak. Properti ini `display` digunakan untuk menentukan bagaimana suatu elemen ditampilkan pada halaman web.
+Setiap elemen HTML memiliki nilai tampilan default, bergantung pada jenis elemennya. Nilai tampilan default untuk sebagian besar elemen adalah blockatau inline.
+Properti ini displaydigunakan untuk mengubah perilaku tampilan default elemen HTML.
 
 
+- CSS MAX WIDTH
+
+eperti yang telah disebutkan pada bab sebelumnya; elemen tingkat blok selalu menempati lebar penuh yang tersedia (membentang ke kiri dan kanan sejauh mungkin).
+Menyetel `width` elemen tingkat blok akan mencegahnya meregang hingga ke tepi wadahnya. Kemudian, Anda dapat mengatur margin ke otomatis, untuk memusatkan elemen secara horizontal di dalam wadahnya. Elemen akan mengambil lebar yang ditentukan, dan ruang yang tersisa akan dibagi rata antara dua margin:
 
 
+- CSS PROPERTI
+
+Properti ini `position` menentukan jenis metode pemosisian yang digunakan untuk suatu elemen (statis, relatif, tetap, absolut, atau melekat).
 
 
+- CSS Z INDEX
+
+Properti z-indexmenentukan urutan tumpukan suatu elemen.
 
 
+## JAVASCRIPT
+
+JavaScript adalah bahasa pemrograman paling populer di dunia.
+JavaScript adalah bahasa pemrograman Web.
+JavaScript mudah dipelajari.
+
+- JS STATEMENT
+
+
+Statement JavaScript terdiri dari:
+Nilai, Operator, Ekspresi, Kata Kunci, dan Komentar.
+Statement ini memberitahu browser untuk menulis "Halo Dolly." di dalam elemen HTML dengan `id="demo"`:
+
+
+- JS SYNTAX
+
+Sintaks JavaScript adalah seperangkat aturan, bagaimana program JavaScript dibuat:
+
+
+- JS COMMENT
+
+Komentar JavaScript dapat digunakan untuk menjelaskan kode JavaScript, dan membuatnya lebih mudah dibaca.
+Komentar JavaScript juga dapat digunakan untuk mencegah eksekusi, saat menguji kode alternatif.
+
+``` sh
+// Change heading:
+document.getElementById("myH").innerHTML = "My First Page";
+
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";
+```
+
+- JS VARIABEL
+
+Variabel adalah Wadah untuk Menyimpan Data
+Variabel JavaScript dapat dideklarasikan dengan 4 cara:
+
+Secara otomatis
+Menggunakan `var`
+Menggunakan `let`
+Menggunakan `const`
+
+```sh
+x = 5;
+y = 6;
+z = x + y;
+```
+
+```sh
+var x = 5;
+var y = 6;
+var z = x + y;
+```
+
+```sh
+let x = 5;
+let y = 6;
+let z = x + y;
+```
+
+```sh
+const x = 5;
+const y = 6;
+const z = x + y;
+```
+
+- JS OPERATOR
+
+Operator Javascript digunakan untuk melakukan berbagai jenis perhitungan matematis dan logis.
+
+
+- JS ARITMATIK
+
+Operator aritmatika melakukan aritmatika pada bilangan (literal atau variabel).
+
+```sh
+let x = 100 + 50;
+```
+
+- JS FINCTIONS
+
+Fungsi JavaScript adalah blok kode yang dirancang untuk melakukan tugas tertentu.
+
+Fungsi JavaScript dijalankan ketika "sesuatu" memanggilnya (memanggilnya).
+
+> // Function to compute the product of p1 and > p2
+> function myFunction(p1, p2) {
+>  return p1 * p2;
+> }
+
+- JS OBJECT
+
+Objek JavaScript adalah wadah untuk nilai bernama yang disebut properti.
+
+
+- JS EVENT 
+
+EVENT HTML adalah "hal" yang terjadi pada elemen HTML.
+
+Ketika JavaScript digunakan di halaman HTML, JavaScript dapat "bereaksi" terhadap event ini.
+
+
+- JS STRING
+
+String untuk menyimpan teks,
+String ditulis dengan tanda kutip
+
+> let answer1 = "It's alright";
+> let answer2 = "He is called 'Johnny'";
+> let answer3 = 'He is called "Johnny"';
+
+- JS NUMBERS
+
+JavaScript hanya memiliki satu jenis angka. Angka dapat ditulis dengan atau tanpa desimal.
+
+
+- JS ARRAY
+
+Array adalah variabel khusus yang dapat menampung lebih dari satu nilai:
+
+
+- JS DATE
+
+date javaScript memungkinkan kita bekerja dengan tanggal:
+
+
+- JS LOOP FOR
+
+Perulangan berguna jika Anda ingin menjalankan kode yang sama berulang kali, setiap kali dengan nilai berbeda.
+
+Seringkali hal ini terjadi ketika bekerja dengan array:
+
+
+- JS LOOP FOR IN
+
+Pernyataan JavaScript for inmengulang properti suatu Objek:
+
+
+- JS FUNCTION
+
+Fungsi JavaScript ditentukan dengan `function` kata kunci.
+Anda dapat menggunakan deklarasi fungsi atau ekspresi fungsi.
+
+
+- JS EVENLISTENER
+
+Metode ini `addEventListener()` melampirkan event handler ke elemen tertentu.
+Metode ini `addEventListener()` melampirkan event handler ke sebuah elemen tanpa menimpa event handler yang ada.
 
 
 
